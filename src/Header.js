@@ -2,7 +2,7 @@ import React from "react";
 
 function Header(props) {
   return (
-    <nav className="bg-dark navbar-dark navbar-expand-lg navbar">
+    <nav className="bg-dark navbar-dark navbar-expand-lg navbar py-3">
       <div className="container">
         <a className="navbar-brand">Frontend Bootcamp</a>
 
