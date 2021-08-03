@@ -2,7 +2,7 @@ import React from "react";
 
 function Header(props) {
   return (
-    <nav className="bg-dark navbar-dark navbar-expand-lg navbar py-3">
+    <nav className="navbar bg-dark navbar-dark navbar-expand-sm py-3">
       <div className="container">
         <a className="navbar-brand">Frontend Bootcamp</a>
 
@@ -20,10 +20,10 @@ function Header(props) {
               <a className="nav-link">Learn</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Learn</a>
+              <a className="nav-link">FAQ</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link">Learn</a>
+              <a className="nav-link">Get Started</a>
             </li>
           </ul>
         </div>
