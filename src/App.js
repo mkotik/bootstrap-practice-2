@@ -4,6 +4,7 @@ import Navbar from "./Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Showcase from "./Showcase.js";
 import Newsletter from "./Newsletter.js";
+import Boxes from "./Boxes.js";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Showcase />
       <Newsletter />
+      <Boxes />
     </div>
   );
 }
